@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Primary Purple #4D1581 Palette */
+  --color-brand-50: #f6edf5;
+  --color-brand-100: #ead9ed;
+  --color-brand-200: #d6b2dc;
+  --color-brand-300: #ba8bc8;
+  --color-brand-400: #9c63b1;
+  --color-brand-500: #7b4097;
+  --color-brand-600: #4D1581; 
+  --color-brand-700: #3c1064;
+  --color-brand-800: #2d0b4b;
+  --color-brand-900: #1f0734;
+  
+  /* Accent Base #EBEAE5 */
+  --color-accent-base: #EBEAE5;
+  --color-accent-dark: #d5d3cb;
+}
+
+body {
+  @apply bg-accent-base text-slate-800 font-sans antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply tracking-tight font-bold;
+}
+
+::selection {
+  @apply bg-brand-600 text-white;
+}
