@@ -61,6 +61,12 @@ export function Hero() {
               Register Now
               <ArrowRight className="w-5 h-5" />
             </Link>
+            <Link
+              to="/contact"
+              className="w-full sm:w-auto bg-white text-brand-900 border-2 border-brand-100 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center hover:bg-brand-50 transition-all shadow-sm"
+            >
+              Contact Us
+            </Link>
           </motion.div>
         </div>
       </div>

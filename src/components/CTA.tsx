@@ -19,6 +19,9 @@ export function CTA() {
           <Link to="/register" className="w-full sm:w-auto bg-white text-brand-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-accent-base transition-colors shadow-lg">
             Register Now
           </Link>
+          <Link to="/contact" className="w-full sm:w-auto bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-colors">
+            Contact Us
+          </Link>
         </div>
       </div>
       

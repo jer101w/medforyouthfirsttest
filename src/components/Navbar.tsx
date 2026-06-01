@@ -43,6 +43,12 @@ export function Navbar() {
             >
               FAQ
             </a>
+            <Link
+              to="/contact"
+              className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
+            >
+              Contact Us
+            </Link>
           </div>
 
           <div className="hidden md:flex gap-4">
@@ -98,6 +104,13 @@ export function Navbar() {
             >
               FAQ
             </a>
+            <Link
+               to="/contact"
+               onClick={() => setIsOpen(false)}
+               className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
+            >
+              Contact Us
+            </Link>
             <Link
               to="/register"
               onClick={() => setIsOpen(false)}
