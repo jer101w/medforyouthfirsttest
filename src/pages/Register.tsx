@@ -95,12 +95,15 @@ export function Register() {
         ) : (
           <>
             <div className="text-center mb-10">
+              <div className="inline-block bg-brand-100 text-brand-700 font-bold px-4 py-1.5 rounded-full text-sm mb-4">
+                100% Free Program
+              </div>
               <h1 className="text-3xl md:text-4xl font-bold text-brand-900 mb-4">
                 Register for the Workshop
               </h1>
               <p className="text-slate-600">
                 Join our 8-week curriculum to build clinical literacy and learn
-                how to deliver powerful advocacy speeches.
+                how to deliver powerful advocacy speeches. It's completely free!
               </p>
             </div>
 
