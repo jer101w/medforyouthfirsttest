@@ -5,15 +5,15 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
   {
     question: "Who is the target audience for the workshops?",
-    answer: "Our workshops and 8-week core curriculum are designed specifically for 5th to 8th graders who want to learn about medical science and public speaking."
+    answer: "Our workshops and the Young Med Leaders Program (our 4-week summer program) are designed specifically for 5th to 8th graders who want to learn about medical science and public speaking"
   },
   {
     question: "Do students need prior medical knowledge?",
-    answer: "Not at all! We teach everything from the ground up. Students will learn how to properly research medical science and build clinical literacy during the program."
+    answer: "Not at all! We teach everything from the ground up. Students will learn how to properly research medical science and build clinical literacy during the program"
   },
   {
-    question: "What happens after the 8-week curriculum?",
-    answer: "Students turn their learning into action. We help them produce health education videos based on their advocacy speeches, which we then share with a global digital audience on our social media platforms. We will also be sending them to local governments or boards to help propose and pass the propositions they created."
+    question: "What happens after the Young Med Leaders Program?",
+    answer: "Students turn their learning into action. We help them produce health education videos based on their advocacy speeches, which we then send to local governments or boards to help propose and pass the propositions they created"
   }
 ];
 

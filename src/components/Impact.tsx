@@ -21,23 +21,23 @@ export function Impact() {
             </div>
             <div className="absolute -bottom-8 -right-8 bg-brand-600 p-8 rounded-[2rem] shadow-xl max-w-xs hidden md:block text-white">
               <div className="text-4xl font-bold mb-2">100%</div>
-              <p className="text-brand-100 font-medium">Of our students produce their own health advocacy videos by week 8.</p>
+              <p className="text-brand-100 font-medium">Of our students draft their own health advocacy proposals by week 4</p>
             </div>
           </motion.div>
           
           <div>
-            <h2 className="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Global Reach</h2>
+            <h2 className="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Digital Advocacy</h2>
             <h3 className="text-3xl md:text-5xl font-bold text-brand-900 mb-6 leading-tight">
-              From Local Classrooms to the World
+              Taking Action for Legislative Impact
             </h3>
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              When young people are empowered with medical knowledge and the confidence to speak, entire communities benefit. Our 5th to 8th graders take the knowledge they learn locally and package it for our digital social media platforms.
+              We empower young people to turn their medical knowledge into action. Our students take what they learn and translate it into advocacy videos aimed at proposing actionable bills and driving real change in government and local communities
             </p>
             <div className="space-y-4">
               {[
-                "Teaching critical clinical evaluation.",
-                "Fostering confident public speaking skills.",
-                "Sharing youth voices on global digital platforms."
+                "Teaching critical curriculum evaluation",
+                "Fostering confident public speaking skills",
+                "Turning student videos into legislative impact"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-4">
                   <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0">

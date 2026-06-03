@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -18,37 +18,63 @@ export function Navbar() {
             />
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="/#about"
-              className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
-            >
-              About Us
-            </a>
-            <a
-              href="/#programs"
-              className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
-            >
-              Programs
-            </a>
-            <a
-              href="/#impact"
-              className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
-            >
-              Impact
-            </a>
-            <a
-              href="/#faq"
-              className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
-            >
-              FAQ
-            </a>
-            <Link
-              to="/contact"
-              className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
-            >
-              Contact Us
-            </Link>
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
+            <div className="flex items-center space-x-4 lg:space-x-6">
+              <div className="relative group">
+                <button className="text-slate-700 font-medium hover:text-brand-600 transition-colors flex items-center gap-1 py-2">
+                  Explore <ChevronDown className="w-4 h-4 ml-1" />
+                </button>
+                <div className="absolute top-full left-0 mt-0 w-48 bg-white border border-slate-100 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col py-2 z-50">
+                  <a
+                    href="/#about"
+                    className="px-4 py-2.5 text-slate-700 hover:text-brand-600 hover:bg-slate-50 transition-colors font-medium text-sm"
+                  >
+                    About Us
+                  </a>
+                  <a
+                    href="/#programs"
+                    className="px-4 py-2.5 text-slate-700 hover:text-brand-600 hover:bg-slate-50 transition-colors font-medium text-sm"
+                  >
+                    Programs
+                  </a>
+                  <a
+                    href="/#impact"
+                    className="px-4 py-2.5 text-slate-700 hover:text-brand-600 hover:bg-slate-50 transition-colors font-medium text-sm"
+                  >
+                    Impact
+                  </a>
+                  <a
+                    href="/#faq"
+                    className="px-4 py-2.5 text-slate-700 hover:text-brand-600 hover:bg-slate-50 transition-colors font-medium text-sm"
+                  >
+                    FAQ
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-px h-6 bg-slate-300"></div>
+
+            <div className="flex items-center space-x-4 lg:space-x-6">
+              <Link
+                to="/team"
+                className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
+              >
+                Our Team
+              </Link>
+              <Link
+                to="/curriculum"
+                className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
+              >
+                Curriculum
+              </Link>
+              <Link
+                to="/contact"
+                className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
+              >
+                Contact Us
+              </Link>
+            </div>
           </div>
 
           <div className="hidden md:flex gap-4">
@@ -83,34 +109,66 @@ export function Navbar() {
           className="md:hidden bg-accent-base border-t border-white/40 p-4 shadow-xl"
         >
           <div className="flex flex-col space-y-4">
-            <a
-              href="/#about"
-              onClick={() => setIsOpen(false)}
-              className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
-            >
-              About Us
-            </a>
-            <a
-              href="/#programs"
-              onClick={() => setIsOpen(false)}
-              className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
-            >
-              Programs
-            </a>
-            <a
-              href="/#faq"
-              onClick={() => setIsOpen(false)}
-              className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
-            >
-              FAQ
-            </a>
-            <Link
-               to="/contact"
-               onClick={() => setIsOpen(false)}
-               className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
-            >
-              Contact Us
-            </Link>
+            <div className="flex flex-col space-y-2">
+               <div className="text-slate-500 font-bold px-4 pt-2 text-sm uppercase tracking-wider">
+                 Explore
+               </div>
+              <a
+                href="/#about"
+                onClick={() => setIsOpen(false)}
+                className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg pl-8"
+              >
+                About Us
+              </a>
+              <a
+                href="/#programs"
+                onClick={() => setIsOpen(false)}
+                className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg pl-8"
+              >
+                Programs
+              </a>
+              <a
+                href="/#impact"
+                onClick={() => setIsOpen(false)}
+                className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg pl-8"
+              >
+                Impact
+              </a>
+              <a
+                href="/#faq"
+                onClick={() => setIsOpen(false)}
+                className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg pl-8"
+              >
+                FAQ
+              </a>
+            </div>
+
+            <div className="h-px w-full bg-slate-300 my-2"></div>
+
+            <div className="flex flex-col space-y-2">
+              <Link
+                 to="/team"
+                 onClick={() => setIsOpen(false)}
+                 className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
+              >
+                Our Team
+              </Link>
+              <Link
+                 to="/curriculum"
+                 onClick={() => setIsOpen(false)}
+                 className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
+              >
+                Curriculum
+              </Link>
+              <Link
+                 to="/contact"
+                 onClick={() => setIsOpen(false)}
+                 className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
+              >
+                Contact Us
+              </Link>
+            </div>
+
             <Link
               to="/register"
               onClick={() => setIsOpen(false)}

@@ -14,7 +14,7 @@ export function FreeBanner() {
         </h2>
         <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
           We believe that every student deserves the opportunity to learn, speak, and advocate. 
-          That's why all our workshops, curriculum materials, and resources are provided entirely free of charge.
+          That's why all our workshops, curriculum materials, and resources are provided entirely free of charge
         </p>
       </div>
     </section>

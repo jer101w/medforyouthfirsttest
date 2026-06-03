@@ -90,8 +90,8 @@ export function Footer() {
               </li>
               <li>
                 <span className="block mb-1 text-xs uppercase tracking-wider opacity-80">Email us at:</span>
-                <a href="mailto:contact@medforyouth.org" className="text-base font-medium text-white hover:text-brand-300 transition-colors break-all">
-                  contact@medforyouth.org
+                <a href="mailto:jeremy@medforyouth.org" className="text-base font-medium text-white hover:text-brand-300 transition-colors break-all">
+                  jeremy@medforyouth.org
                 </a>
               </li>
               <li className="pt-2">

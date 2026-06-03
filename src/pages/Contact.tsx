@@ -33,10 +33,10 @@ export function Contact() {
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-2">Email Us At</h3>
             <a 
-              href="mailto:contact@medforyouth.org" 
+              href="mailto:jeremy@medforyouth.org" 
               className="text-lg font-medium text-brand-600 hover:text-brand-700 transition-colors mb-4"
             >
-              contact@medforyouth.org
+              jeremy@medforyouth.org
             </a>
           </div>
         </div>

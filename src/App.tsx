@@ -9,6 +9,9 @@ import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { Register } from './pages/Register';
 import { Contact } from './pages/Contact';
+import { Team } from './pages/Team';
+import { Curriculum } from './pages/Curriculum';
+import { ScrollToTopButton } from './components/ScrollToTopButton';
 
 export default function App() {
   return (
@@ -20,9 +23,12 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/curriculum" element={<Curriculum />} />
           </Routes>
         </main>
         <Footer />
+        <ScrollToTopButton />
       </div>
     </Router>
   );
