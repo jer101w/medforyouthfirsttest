@@ -1,7 +1,7 @@
+import React, { cloneElement } from "react";
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
-import { cloneElement } from "react";
-import { Users, Phone, Calendar, ArrowRight, Info, Target, HelpCircle } from "lucide-react";
+import { Users, Phone, Calendar, ArrowRight, Info, Target, HelpCircle, Flame } from "lucide-react";
 
 const links = [
   {
@@ -12,8 +12,15 @@ const links = [
     isRoute: true,
   },
   {
+    title: "Our Campaign",
+    description: "Support our active AB-2229 campaign",
+    icon: <Flame className="w-6 h-6" />,
+    href: "/advocacy",
+    isRoute: true,
+  },
+  {
     title: "Register Now",
-    description: "Sign up for the Young Med Leaders Program",
+    description: "Sign up for the YML Program",
     icon: <Calendar className="w-6 h-6" />,
     href: "/register",
     isRoute: true,
@@ -31,7 +38,7 @@ export function Directory() {
   return (
     <section className="py-12 bg-white relative overflow-hidden shadow-[0_-10px_40px_rgba(0,0,0,0.03)] z-30" id="directory">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {links.map((link, index) => {
             const CardContent = () => (
               <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md hover:-translate-y-1 hover:border-brand-200 transition-all flex items-center gap-4 group">

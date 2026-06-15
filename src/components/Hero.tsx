@@ -40,7 +40,7 @@ export function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg lg:text-xl text-slate-700 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium"
             >
-              We provide the Young Med Leaders Program, a 4-week program that teaches 5th to 8th graders how
+              We provide the Young Med Leaders Program, a 4-week program that teaches 5th to 10th graders how
               to research medical science and deliver powerful advocacy speeches
             </motion.p>
 

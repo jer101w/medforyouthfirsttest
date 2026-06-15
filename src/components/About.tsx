@@ -22,7 +22,7 @@ export function About() {
             {
               icon: <Mic2 className="w-6 h-6 text-brand-600" />,
               title: "Public Speaking",
-              description: "Empowering 5th to 8th graders to deliver powerful advocacy speeches on health topics"
+              description: "Empowering 5th to 10th graders to deliver powerful advocacy speeches on health topics"
             },
             {
               icon: <HeartPulse className="w-6 h-6 text-brand-600" />,
@@ -31,8 +31,8 @@ export function About() {
             },
             {
               icon: <Target className="w-6 h-6 text-brand-600" />,
-              title: "Digital Advocacy",
-              description: "Turning videos and speeches into actionable bills for legislative purposes in the community"
+              title: "Active Campaigns",
+              description: "Turning speeches into signatures to pass real healthcare access and community grant bills"
             }
           ].map((goal, index) => (
             <motion.div 

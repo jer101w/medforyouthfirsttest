@@ -11,6 +11,7 @@ import { Register } from './pages/Register';
 import { Contact } from './pages/Contact';
 import { Team } from './pages/Team';
 import { Curriculum } from './pages/Curriculum';
+import { Advocacy } from './pages/Advocacy';
 import { ScrollToTopButton } from './components/ScrollToTopButton';
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/team" element={<Team />} />
             <Route path="/curriculum" element={<Curriculum />} />
+            <Route path="/advocacy" element={<Advocacy />} />
           </Routes>
         </main>
         <Footer />

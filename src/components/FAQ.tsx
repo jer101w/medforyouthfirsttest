@@ -5,7 +5,7 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
   {
     question: "Who is the target audience for the workshops?",
-    answer: "Our workshops and the Young Med Leaders Program (our 4-week summer program) are designed specifically for 5th to 8th graders who want to learn about medical science and public speaking"
+    answer: "Our workshops and the Young Med Leaders Program (our 4-week summer program) are designed specifically for 5th to 10th graders who want to learn about medical science and public speaking"
   },
   {
     question: "Do students need prior medical knowledge?",

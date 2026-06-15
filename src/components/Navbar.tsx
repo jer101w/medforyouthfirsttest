@@ -69,6 +69,13 @@ export function Navbar() {
                 Curriculum
               </Link>
               <Link
+                to="/advocacy"
+                className="text-brand-700 font-bold hover:text-brand-600 transition-colors flex items-center gap-1.5 bg-brand-50 px-3 py-1.5 rounded-full border border-brand-100"
+              >
+                Our Campaign
+                <span className="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span>
+              </Link>
+              <Link
                 to="/contact"
                 className="text-slate-700 hover:text-brand-600 font-medium transition-colors"
               >
@@ -159,6 +166,14 @@ export function Navbar() {
                  className="text-slate-800 font-medium px-4 py-2 hover:bg-white/50 rounded-lg"
               >
                 Curriculum
+              </Link>
+              <Link
+                 to="/advocacy"
+                 onClick={() => setIsOpen(false)}
+                 className="text-brand-800 font-bold px-4 py-2 hover:bg-white/50 rounded-lg flex items-center justify-between"
+              >
+                <span>Our Campaign</span>
+                <span className="w-2.5 h-2.5 rounded-full bg-brand-600 animate-pulse"></span>
               </Link>
               <Link
                  to="/contact"

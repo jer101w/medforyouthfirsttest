@@ -5,50 +5,50 @@ import { Link } from "react-router-dom";
 const weeks = [
   {
     week: "Week 1",
-    theme: "Introduction to Public Health",
+    theme: "Researching the AB-2229 Bill",
     icon: <BookOpen className="w-8 h-8 text-brand-600" />,
-    description: "Understanding the basics of community wellness, epidemiology, and the fundamental principles of health advocacy.",
+    description: "Learn the community health facts behind AB-2229, conduct easy research on pediatric care deserts, and outline your advocacy script!",
     topics: [
-      "What is Public Health?",
-      "Social Determinants of Health",
-      "Identifying Community Needs",
-      "Introduction to Health Equity"
+      "Understanding California Assembly Bill 2229 (AB-2229)",
+      "How to research community medicine disparities and pediatric health statistics",
+      "Writing a simple, persuasive speech script first draft",
+      "Organizing ideas to capture attention and speak with force"
     ]
   },
   {
     week: "Week 2",
-    theme: "Curriculum & Research",
+    theme: "Finishing the Script & Speaking Proud",
     icon: <FileText className="w-8 h-8 text-brand-600" />,
-    description: "Evaluating clinical information, separating fact from fiction, and learning how to conduct basic medical research.",
+    description: "Finish writing your script and start learning the secrets of great public speaking, like using hand motions and speaking slowly.",
     topics: [
-      "Navigating Medical Literature",
-      "Understanding Clinical Trials Basics",
-      "Identifying Reliable Sources",
-      "Drafting Research Summaries"
+      "Polishing and finishing your speech script",
+      "How to stand tall and hold your head high",
+      "Learning cool tricks with hand motions and face expressions",
+      "Finding the perfect speed and tone for your talk"
     ]
   },
   {
     week: "Week 3",
-    theme: "Medical Advisor Session",
+    theme: "Reviewing & Practicing Out Loud",
     icon: <Stethoscope className="w-8 h-8 text-brand-600" />,
-    description: "Learning directly from a medical professional on a niche topic. Students get to ask questions and explore real-world cases.",
+    description: "Practice saying your speech out loud, finish up any details left over, and get ready for the camera!",
     topics: [
-      "Guest Speaker Presentation",
-      "Interactive Q&A Session",
-      "Case Study Analysis",
-      "Career Pathways in Medicine"
+      "Reading your speech to a friend or family member",
+      "Fixing any tricky words that are hard to say",
+      "Getting kind feedback to make your talk even better",
+      "Double checking all facts to be super confident"
     ]
   },
   {
     week: "Week 4",
-    theme: "Delivering Your Speech",
+    theme: "Recording & Sending Your Video",
     icon: <Presentation className="w-8 h-8 text-brand-600" />,
-    description: "Crafting legislative proposals and delivering powerful advocacy speeches designed to create real community impact.",
+    description: "Record your final advocacy video! Send it to us so we can share it and help turn your ideas into real neighborhood rules.",
     topics: [
-      "Public Speaking Fundamentals",
-      "Structuring an Advocacy Speech",
-      "Writing Legislative Proposals",
-      "Final Pitch Presentations"
+      "Setting up your camera and choosing a quiet spot",
+      "Recording your final speech with a proud face",
+      "Sending your video to our Med For Youth helpers",
+      "How we share your ideas to help prop up new neighborhood rules"
     ]
   }
 ];
@@ -59,10 +59,10 @@ export function Curriculum() {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h2 className="text-sm font-bold text-brand-600 uppercase tracking-widest mb-4">Young Med Leaders Program</h2>
         <h1 className="text-4xl md:text-5xl font-bold text-brand-900 mb-6">
-          Detailed Curriculum
+          Our Simple 4-Week Class Plan
         </h1>
         <p className="text-lg text-slate-600">
-          Our intensive 4-week program is designed for 5th to 8th graders to transform them into confident public health advocates. Explore the week-by-week breakdown below.
+          We have a super fun 4-week class for 5th to 10th graders. We play, learn science, and practice speaking up to make our world a happier, healthier place! Take a look at what we do every week below.
         </p>
       </div>
 
@@ -115,9 +115,9 @@ export function Curriculum() {
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-600/40 via-transparent to-transparent"></div>
         
         <div className="relative z-10 max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Ready to join our program?</h2>
+          <h2 className="text-3xl font-bold mb-4">Want to join our fun classes?</h2>
           <p className="text-brand-100 mb-8 max-w-xl mx-auto">
-            Secure your spot in our upcoming summer session and take the first step towards becoming a healthcare leader in your community.
+            Save your spot for this summer! Come learn and help your neighborhood be happy, strong, and healthy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

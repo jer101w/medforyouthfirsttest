@@ -25,29 +25,38 @@ export function Impact() {
             </div>
           </motion.div>
           
-          <div>
-            <h2 className="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Digital Advocacy</h2>
-            <h3 className="text-3xl md:text-5xl font-bold text-brand-900 mb-6 leading-tight">
-              Taking Action for Legislative Impact
-            </h3>
-            <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              We empower young people to turn their medical knowledge into action. Our students take what they learn and translate it into advocacy videos aimed at proposing actionable bills and driving real change in government and local communities
-            </p>
-            <div className="space-y-4">
-              {[
-                "Teaching critical curriculum evaluation",
-                "Fostering confident public speaking skills",
-                "Turning student videos into legislative impact"
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-4">
-                  <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0">
-                    <div className="w-2.5 h-2.5 rounded-full bg-brand-600"></div>
+            <div>
+              <h2 className="text-sm font-bold text-brand-600 uppercase tracking-widest mb-3">Our Campaign</h2>
+              <h3 className="text-3xl md:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Taking Action for Community Impact
+              </h3>
+              <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+                We empower young people to turn their health concepts into real-world action. Under our **Young Med Leaders Program**, all 15 students join forces to advocate for California **Assembly Bill 2229 (AB-2229)**: establishing Mobile Health Clinic Grants at low-income public schools to guarantee on-campus medical, dental, and vision checkups for all 5th to 10th graders.
+              </p>
+              <div className="space-y-4 mb-8">
+                {[
+                  "Fostering confident public speaking skills",
+                  "Creating persuasive and factual health arguments",
+                  "Synthesizing youth voice into real community policy proposals"
+                ].map((item, i) => (
+                  <div key={i} className="flex items-center gap-4">
+                    <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0">
+                      <div className="w-2.5 h-2.5 rounded-full bg-brand-600"></div>
+                    </div>
+                    <span className="text-slate-800 font-medium">{item}</span>
                   </div>
-                  <span className="text-slate-800 font-medium">{item}</span>
-                </div>
-              ))}
+                ))}
+              </div>
+              
+              <div className="flex">
+                <a
+                  href="/advocacy"
+                  className="bg-brand-600 text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-brand-600/20 hover:bg-brand-700 transition-all hover:-translate-y-0.5 inline-flex items-center gap-2"
+                >
+                  Watch Student Videos & Sign Petition
+                </a>
+              </div>
             </div>
-          </div>
         </div>
       </div>
     </section>

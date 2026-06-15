@@ -19,7 +19,7 @@ export function Register() {
             Register for the Young Med Leaders Program
           </h1>
           <p className="text-slate-600 mb-6">
-            Join our Young Med Leaders Program (a 4-week summer program for 5th to 8th graders) starting July 20th to build clinical literacy and learn
+            Join our Young Med Leaders Program (a 4-week summer program for 5th to 10th graders) starting July 20th to build clinical literacy and learn
             how to deliver powerful advocacy speeches. It's completely free
           </p>
           <a 

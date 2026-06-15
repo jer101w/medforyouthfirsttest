@@ -12,7 +12,7 @@ export function CTA() {
           Ready to Start Leading?
         </h2>
         <p className="text-xl text-brand-100 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Join our Young Med Leaders Program—a 4-week program for 5th to 8th graders—and become the next generation of healthcare leaders in your own neighborhood
+          Join our Young Med Leaders Program—a 4-week program for 5th to 10th graders—and become the next generation of healthcare leaders in your own neighborhood
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
